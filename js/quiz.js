@@ -27,34 +27,34 @@ function submitQuiz() {
     var score = 0;
     
     // check answers and update score
-    if (q1[1].checked) {
+    if (q1[0].checked) {
       score++;
     }
-    if (q2[1].checked) {
+    if (q2[0].checked) {
       score++;
     }
-    if (q3[0].checked) {
+    if (q3[1].checked) {
       score++;
     }
     if (q4[0].checked) {
       score++;
     }
-    if (q5[1].checked) {
+    if (q5[0].checked) {
       score++;
     }
-    if (q6[1].checked) {
+    if (q6[0].checked) {
       score++;
     }
     if (q7[0].checked) {
       score++;
     }
-    if (q8[1].checked) {
+    if (q8[0].checked) {
       score++;
     }
     if (q9[0].checked) {
       score++;
     }
-    if (q10[0].checked) {
+    if (q10[1].checked) {
       score++;
     }
     
